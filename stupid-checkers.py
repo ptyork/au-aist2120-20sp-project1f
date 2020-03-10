@@ -1,19 +1,19 @@
 # Game board is a "dictionary" of strings.
 # Keys will be to board "coordinates" (col+row, e.g. "C2").
 # Values will be '', 'r' or 'b'.
-game_board = {}
+checkers_board = {}
 
 # Write code to initialize the dictionary here
-# (e.g., game_board['A1'] = .......)
+# (e.g., checkers_board['A1'] = .......)
 
 # write a function that shows the board according to the instructions
-def display_board():
+def show_board():
     # do your thing here
     return
 
 
 # write a function returns the COUNT of pieces for the given color
-def count_remaining(color):
+def pieces_remaining(color):
     # do your thing here
     return 0  # change this to return the actual amount
 
